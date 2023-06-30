@@ -91,13 +91,14 @@ void deleteAdjNodes(adjacencyNode* head) {
 int main() {
     // Mock graph
     node* NodeList = nullptr;
-    edge* EdgeList = nullptr;
     insertNode(NodeList, "0");
     insertNode(NodeList, "1");
     insertNode(NodeList, "2");
     insertNode(NodeList, "3");
     insertNode(NodeList, "4");
 
+    
+    edge* EdgeList = nullptr;
     insertEdge(EdgeList, "1", "2", 1);
     insertEdge(EdgeList, "1", "3", 4);
     insertEdge(EdgeList, "1", "0", 3);
